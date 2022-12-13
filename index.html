@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<div class="helloSayer">
+    <label> Input number
+        <input type="text" id="inputName" >
+    </label>
+    <span id="spanHello">Hello defaultValue</span>
+    <button onclick="helloSayer()">Say Hello!</button>
+</div>
+
+
+<div class="identityChecker" id="testID">
+    <label> Password
+        <input type="password" id="inputPasswd" >
+    </label>
+    <label> Password confirmation
+        <input type="password" id="confirmPasswd" >
+    </label>
+    <span id="identitySpan">Identical / Unidentical</span>
+    <button onmousedown="identityChecker()">Check identity</button>
+</div>
+
+
+<div class="randomViewer">
+    <span id="randomSpan">Here you will see the random value</span>
+    <button onmouseup="randomGenerator()">Generate random value</button>
+</div>
+
+
+<script src="./JS/script.js"></script>
+</body>
+</html>

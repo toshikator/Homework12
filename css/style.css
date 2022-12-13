@@ -1,0 +1,36 @@
+*{font-family: "Arial"}
+
+div{
+    width: 55vw;
+    margin: 3vh auto;
+    padding: 3vh;
+    border: solid 3px crimson;
+    border-radius: 30px;
+}
+label{
+    display: block;
+}
+
+span{
+    display: block;
+    margin: 1vh;
+    border-radius: 30px;
+    padding: 1vh;
+    border: solid 2px salmon;
+}
+
+input{
+    border: solid 2px firebrick;
+    border-radius: 15px;
+    font-weight: 900;
+    height: 4vh;
+    margin: 1vw;
+}
+button{
+    border-radius: 15px;
+    background-color: greenyellow;
+    color: hotpink;
+    font-weight: 900;
+    height: 4vh;
+    border: solid 2px deeppink;
+}
